@@ -1,0 +1,19 @@
+{
+  "name": "vitest-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "default": "tsc",
+    "node16": "tsc -p tsconfig.node16.json",
+    "bundler": "tsc -p tsconfig.bundler.json",
+    "esnext": "tsc -p tsconfig.esnext.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
