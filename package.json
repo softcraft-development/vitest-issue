@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bundler": "tsc -p tsconfig.bundler.json",
+    "esnext": "tsc -p tsconfig.esnext.json",
     "default": "tsc",
     "node16": "tsc -p tsconfig.node16.json",
-    "bundler": "tsc -p tsconfig.bundler.json",
-    "esnext": "tsc -p tsconfig.esnext.json"
+    "skiplibcheck": "tsc -p tsconfig.skiplibcheck.json"
   },
   "author": "",
   "license": "ISC",

@@ -52,3 +52,8 @@ This works because:
 However, `"moduleResolution": "bundler"` is [discouraged by the TypeScript documentation when writing Node modules](https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-writing-a-library):
 
 > In short, "moduleResolution": "bundler" is infectious, allowing code that only works in bundlers to be produced. Likewise, "moduleResolution": "nodenext" is only checking that the output works in Node.js, but in most cases, module code that works in Node.js will work in other runtimes and in bundlers.
+
+
+### SkipLibCheck
+
+The [TypeScript configuration option](https://www.typescriptlang.org/tsconfig/#skipLibCheck) `"skiplibcheck": "true` bypasses this problem in all scenarios.
